@@ -11,7 +11,7 @@ const Home: NextPage = () => {
 	console.log(data);
 	return (
 		<div className="relative h-screen overflow-y-scroll">
-			<Header />
+			<Header setQuery={setQuery} />
 			<Hero />
 		</div>
 	);
