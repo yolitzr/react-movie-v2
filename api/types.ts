@@ -3,6 +3,9 @@ export type Movies = {
 	results: Movies[];
 	total_pages: number;
 	total_results: number;
+	backdrop_path: string;
+	title: string;
+	overview: string;
 };
 
 export type Movie = {
