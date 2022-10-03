@@ -6,6 +6,6 @@ type Props = {
 
 export const Grid = ({ title, children, className }: Props) => (
 	<div className={className}>
-		<h2 className="text-xl font-bold pb-4">{title}</h2>
+		<h2 className="text-xl font-bold pb-4 mt-2">{title}</h2>
 	</div>
 );
